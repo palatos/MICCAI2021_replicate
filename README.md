@@ -32,7 +32,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/maragraziani/MICCAI2021_replicate">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -41,14 +41,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/maragraziani/MICCAI2021_replicate"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/maragraziani/MICCAI2021_replicate">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/maragraziani/MICCAI2021_replicate/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/maragraziani/MICCAI2021_replicate/issues">Request Feature</a>
   </p>
 </p>
 
