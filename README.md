@@ -39,7 +39,7 @@
   <h3 align="center">Sharp-LIME: Sharpening Local Interpretable Model-agnostic Explanations for Histopathology</h3>
 
   <p align="center">
-    Applying off-the-shelf methods with default configurations such as Local Interpretable Model-Agnostic Explanations (LIME) is not sufficient to generate stable and understandable explanations in histopathology. 
+    Applying off-the-shelf methods with default configurations such as Local Interpretable Model-Agnostic Explanations (LIME) [1] is not sufficient to generate stable and understandable explanations in histopathology. 
 This work improves standard LIME by leveraging nuclei annotations, creating a reliable way for pathologists to audit black-box tumor classifiers.
 The obtained visualizations reveal the sharp, neat and  high attention of the deep classifier to the neoplastic nuclei in the dataset, an observation in line with clinical decision making. Compared to standard LIME, our explanations show improved understandability for domain-experts, report higher stability and pass the sanity checks of consistency to data or initialization changes and sensitivity to network parameters. 
     <br />
@@ -61,19 +61,16 @@ The obtained visualizations reveal the sharp, neat and  high attention of the de
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Based Upon</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -83,22 +80,14 @@ The obtained visualizations reveal the sharp, neat and  high attention of the de
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Paper
+This 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### Based Upon
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
+* [1]() Local Interpretable Model-agnostic Explanations
+* [2]() Iam work
+* [3]() Evaluation XAI2021
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -107,69 +96,38 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This code was developed in Python 3.6 and using Tensorflow 2. You will also need some standard packages to replicate the experiments.Follow the instructions in **Installation** to set the environment 
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/maragraziani/MICCAI2021_replicate
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
+2. Install python packages with pip
+  
+  ```sh
+  pip install numpy pandas matplotlib h5py seaborn scikit-image 
+  pip install git+https://github.com/palatos/lime@ColorExperiments
+  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+_For more examples, please refer to the [Notebooks](https://github.com/maragraziani/MICCAI2021_replicate/notebooks) folder
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+Mara Graziani - [@mormontre](https://twitter.com/mormontre) - mara.graziani@hevs.ch
+Iam Palatnik - iam.palat@gmail.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -177,7 +135,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 * []()
-
 
 
 
