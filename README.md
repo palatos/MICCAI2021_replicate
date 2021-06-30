@@ -33,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/maragraziani/MICCAI2021_replicate">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="300">
   </a>
 
   <h3 align="center">Sharp-LIME: Sharpening Local Interpretable Model-agnostic Explanations for Histopathology</h3>
