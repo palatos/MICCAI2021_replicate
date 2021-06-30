@@ -119,7 +119,7 @@ This code was developed in Python 3.6 and using Tensorflow 2. You will also need
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-For more examples, please refer to the [Notebooks](https://github.com/maragraziani/MICCAI2021_replicate/notebooks) folder
+For more examples, please refer to the [Notebooks](https://github.com/maragraziani/MICCAI2021_replicate//tree/main/notebooks) folder
 
 <!-- LICENSE -->
 ## License
